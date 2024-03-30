@@ -18,7 +18,7 @@ While working in several similar DBs utilized by different countries, it can get
 
 ```SQL
 Select Distinct b.FileID,
-  ha.ActivityTypeCodeOfActivity,
+  ha.TypeCode,
   b.ActiveInactive,
   b.StatusCode,
   b.ModifiedOn /*,
